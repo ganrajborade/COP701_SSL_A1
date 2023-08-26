@@ -13,6 +13,15 @@ In this assignment our main objective was to convert a Markdown document to an e
 9. code
 
 ## How to run?
+First of all, make sure the script file (run.sh) has executable permissions. You can use the following command to view the permissions of the file:
+<pre>
+ls -l run.sh
+</pre>
+If the permissions are not set to allow execution for your user, you can modify them using the chmod command:
+<pre>
+chmod +x run.sh
+</pre>
+Now, you can run the following command:
 <pre>
 ./run input.md output.html
 </pre>
