@@ -26,3 +26,8 @@ This will generate **unit_test** file. To run this :
 <pre>
 ./unit_test
 </pre>
+
+To delete **unit_test** file, use :
+<pre>
+make -f makefile_unit_test clean
+</pre>
