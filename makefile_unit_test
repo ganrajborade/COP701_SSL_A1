@@ -1,0 +1,13 @@
+# Makefile for cleaned_html_generator.c
+
+# Compiler and flags
+CC = gcc
+CFLAGS = -Wall -Wextra
+
+# Target
+unit_test: unit_testing.c
+	@$(CC) $(CFLAGS) -o $@ unit_testing.c
+clean:
+	rm -f unit_test
+
+.PHONY: unit_test clean
