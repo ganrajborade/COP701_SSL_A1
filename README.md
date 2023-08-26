@@ -1,6 +1,17 @@
 # COP701_SSL_A1
 In this assignment our main objective was to convert a Markdown document to an equivalent HTML document using Flex, Bison, Abstract Syntax Tree and Code Generation phase of Compiler.
 
+## Total markdown features supported for conversion to html file :
+• headings - level 1 to 6
+• paragraphs
+• line breaks
+• bold and italics emphasis
+• ordered and unordered lists
+• images
+• URLs(hyperlinks)
+• tables
+• code
+
 ## How to run?
 <pre>
 ./run input.md output.html
