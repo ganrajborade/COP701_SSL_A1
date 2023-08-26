@@ -76,7 +76,6 @@ int main(int argc, char** argv){
     // Close input file
     fclose(inputFile);
 
-    // Replace "</p><p>" with an empty string
     replaceSubstring(htmlContent, "</p><p>", " ");
     replaceSubstring(htmlContent, "</ol><ol>", "");
     replaceSubstring(htmlContent, "</tr><tr>", "");

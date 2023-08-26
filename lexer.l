@@ -11,7 +11,7 @@
 #include "bison.tab.h" 
 %}
 
-textword            [a-zA-Z:\.\,'/\%\&\?]+
+textword            [a-zA-Z:\.\,'/\%\&\?!]+
 digits              [0-9]+
 header              #|##|###|####|#####|######
 

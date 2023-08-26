@@ -49,7 +49,7 @@ int main() {
         snprintf(command, sizeof(command), "./run.sh %s %s", input_file, output_file);
         system(command);
 
-        // Compare the output with the reference file
+        // Compare the output with the reference file. >dev/null 2>&1 basically ignore the unused variables warning.
         snprintf(command, sizeof(command), "diff -q %s %s >/dev/null 2>&1", output_file, reference_file);
         int result = system(command);
         

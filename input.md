@@ -1,3 +1,4 @@
+
 # This is heading1
 
 This is a paragraph under heading1. **This text is in bold**.
@@ -15,7 +16,7 @@ This is the same paragraph.
 
 #### This is heading4
 
-This is IITD logo: ![IITD logo](iitdlogo.jpg)
+This is IITD logo: ![IITD logo](iitd-logo.jpg)
 
 ##### This is heading5
 
@@ -50,23 +51,7 @@ This is another list of items
 | row2    | 3.14    |
 | row3    | August  |
 
+Perfect! ***This should finally appear in both bold and italics if possible***.
 
-***my name is***
-
-```This is my code snippet```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+This is the code portion ```sample code```
 
