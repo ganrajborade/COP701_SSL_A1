@@ -29,3 +29,8 @@ To delete **unit_test** file, use :
 <pre>
 make -f makefile_unit_test clean
 </pre>
+
+## For seeing the doxygen documentation, run this :
+<pre>
+doxygen Doxyfile
+</pre>
