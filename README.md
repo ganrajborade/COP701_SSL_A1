@@ -2,15 +2,15 @@
 In this assignment our main objective was to convert a Markdown document to an equivalent HTML document using Flex, Bison, Abstract Syntax Tree and Code Generation phase of Compiler.
 
 ## Total markdown features supported for conversion to html file :
-- headings - level 1 to 6
-- paragraphs
-- line breaks
-- bold and italics emphasis
-- ordered and unordered lists
-- images
-- URLs(hyperlinks)
-- tables
-- code
+1. headings - level 1 to 6
+2. paragraphs
+3. line breaks
+4. bold and italics emphasis
+5. ordered and unordered lists
+6. images
+7. URLs(hyperlinks)
+8. tables
+9. code
 
 ## How to run?
 <pre>
