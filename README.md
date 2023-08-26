@@ -2,7 +2,11 @@
 In this assignment our main objective was to convert a Markdown document to an equivalent HTML document using Flex, Bison, Abstract Syntax Tree and Code Generation phase of Compiler.
 
 ## How to run?
-'''./run.sh input.md output.html'''
+<pre>
+```
+./run input.md output.html
+```
+</pre>
 
 This will create 2 files : output.html and output_cleaned.html.
 
