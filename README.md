@@ -16,3 +16,13 @@ output_cleaned.html is the final output file which will render the required html
 make clean
 make all
 </pre>
+
+## For UNIT_TESTING, run this :
+<pre>
+make -f makefile_unit_test
+</pre>
+This will generate **unit_test** file. To run this :
+
+<pre>
+./unit_test
+</pre>
